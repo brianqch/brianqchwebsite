@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- (Part 2: CSS, Question 0) Font import here. If you don't know what this is yet, don't worry, we cover this in the Part 2 of the homework.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <title>Brian's Website</title>
+</head>
+<body>
+    <div id=container>
+        <!-- Question 0. Add an image here (a picture of you!) Make sure it's a square. -->
+        <div class="profile-container">
+            <img src="brianprofilepic.jpeg" alt="brian">
+        </div>
+        <h1>Brian Quach</h1>
+        <!-- Question 1. Add headings to each of these sections! Make this heading smaller than your name.-->
+        <section id="education">
+            <h2> Education </h2>
+            <!-- Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em). -->
+            <h3> Univesity of California, Berkeley </h3> 
+            <p> Computer Science, BA </p>
+            <p> Current classes are: CS61C, CS186, ECONC175 </p>
+        </section>
+        <section id="experience">
+            <h2> Experience </h2>
+            <!-- Question 3a. Create 2 to 3 divs with the same class (experience-list-item), and fill them in with your work experiences. -->
+            <div class="experience-wrapper">
+                <div class="experience-list-item">
+                    <h3> Software Engineer </h3>
+                    <ul>
+                        <li>Developed an auto-fill algorithm using JavaScript to efficiently recommend course schedules for students that assists advisors with student scheduling needs</li>
+                        <li>Implemented user interface features with HTML and CSS to maximize the tool’s usability</li>
+                        <li> Restructured internal framework to improve flexibility of changes to course schedules </li>
+                </ul>
+                </div>
+                <div class="experience-list-item">
+                    <h3> EthiCAL Apparel </h3>
+                    <ul>
+                        <li> Enhanced user experience using JavaScript, HTML, and CSS to highlight products, events, and partnerships with other organizations, improving and maintaining user traffic by 200%</li>
+                        <li> Led a small team of developers to collectively optimize pages to further increase business SEO</li>
+                        <li> Constructed high fidelity prototypes from wireframes using Figma</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Question 3c. Create a div that contains all the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
+        </section>
+        <section id="projects">
+            <h3> Projects </h3>
+            <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
+            <div class="project-wrapper">
+                <div class="project-list-item">
+                    <h3>Seedling: Personal Development & Fitness Tracker | SwiftUI</h3>
+                    <p>
+                        Centralized fitness progress tracking into one iOS application through a concentration of essential features, including weekly workout plans, exercise logs, timer and stopwatch using Google Firebase
+                        Developed an algorithm to provide further incentive for personal growth by implementing a virtual plant that levels up as users continue to log their workouts daily
+                    </p>
+                </div>
+                <div class="project-list-item">
+                    <h3>Gitlet | Java</h3>
+                    <p>
+                        Designed and developed a miniature version of Git, a version control system used for backing up and committing collections of files.
+                        Implemented various methods like initializing, adding, committing, merging, removing
+                        Added remote features that allows for sharing files with other people over the internet, accessing a shared history of changes that have been made
+                    </p>
+                </div>
+            </div>
+            <!-- Question 4b. Create a div that contains all the projects-list-item divs named "project-wrapper". You'll need this later! -->
+        </section>
+        <section id="contact">
+            <h2> Contact </h2>
+            <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
+            <p>You can contact me <a href="https://www.linkedin.com/in/briandquach/">here</a>!</p>
+        </section>
+    </div>
+</body>
+</html>
